@@ -26,10 +26,10 @@ int main()
   //infinite loop
   while(1)
   {
-	printf("1 Select quiz type\n");
-	printf("2 Select quiz categories\n");
-	printf("3 Run quiz\n");
-	printf("4 Exit\n");
+	printf("1. Select quiz type\n");
+	printf("2. Select quiz categories\n");
+	printf("3. Run quiz\n");
+	printf("4. Exit\n");
 	printf("Enter your choice: ");
 	//read a single character
 
@@ -55,7 +55,7 @@ int main()
 		//break;
 		if (ch == '4')
 		{
-		  printf("Back to menu...\n");
+		  printf("Back to menu level 1.\n");
 		  break;
 		}
       } while (ch != 4);
